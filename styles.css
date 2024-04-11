@@ -1,0 +1,67 @@
+/* Header */
+header {
+    background-color: #ff6600; /* Narancssárga háttérszín */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-wrapper img {
+    width: 200px; /* Logó szélessége */
+}
+
+nav {
+    text-align: center;
+}
+
+.menu-wrapper {
+    display: inline-block; /* A menüpontok egymás mellett jelenjenek meg */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background-color: #cc5500;
+}
+
+
+/* Welcome kép */
+.welcome-image {
+    width: 100%;
+    max-height: 400px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tartalom szekciók */
+section {
+    padding: 20px;
+    background-color: #ffcc99; /* Világos narancssárga háttérszín */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff6600; /* Narancssárga háttérszín */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
